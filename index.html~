@@ -1,0 +1,157 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<head>
+	
+		<title>Redes de Datos</title>
+	</head>
+
+		<body background="bg.jpg" bgcolor="#A9BCF5" text="000000">
+		<center><table width="950"><tr><td>
+			<img src="computer.jpg">
+			<br>
+			<center>
+			<img src="foto.png">
+			</center>
+			<br>
+			<center>
+			
+			<a href="index.html">
+			<img src="inicio.png" border="0"></a>
+			<a href="personal.html">
+			<img src="personal.png" border="0"></a>
+			<a href="CV.html">
+			<img src="cv.png" border="0"></a>
+			<a href="horario.html">
+			<img src="horario.png" border="0"></a>
+			
+			
+			
+			
+			</center>
+			<br>
+			<center><table border="0" width="90%" bgcolor="#EFEFFB">
+			<tr>
+				<td colspan="2">
+					<center><font face="verdana"><h1>Redes de Datos</h1></font></center>
+				</td>
+			
+			</tr>
+			<tr>
+				<td>
+					<h2>LTE</h2>
+					<h3>Long Term Evolution</h3>
+					<p> 
+					Es un estándar de comunicaciones móviles 
+					desarrollado por la 3GPP, la asociación que 
+					desarrolló y mantiene GSM y UMTS. 
+					El interfaz radio (nivel físico) del sistema 
+					LTE es algo completamente nuevo, así que 
+					LTE es una nueva generación respecto a 
+					UMTS (tercera generación o 3G) y a su vez 
+					GSM (segunda generación o 2G). No obstante, 
+					la Unión Internacional de Telecomunicaciones (
+					ITU) no considera que el LTE que se está 
+					desplegando ahora mismo por el mundo sea 4G
+					</p>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<h2>IMS</h2>
+					<h3>IP-Subsistema Multimedia</h3>
+					<p>
+					IMS es uno de los mayores éxitos del 3GPP.
+					Originalmente diseñado para evolucionar 
+					redes UMTS para entregar Protocolo de 
+					Internet multimedia para los usuarios 
+					móviles, IMS ha convertido en el 
+					componente central dentro de 3G, 
+					TV por cable y redes de telecomunicaciones 
+					de próxima generación fijas.</p>
+					<p>Especificación IMS comenzó en 
+					3GPP Release 5 como parte de la 
+					evolución de la red de núcleo de 
+					conmutación de circuitos de conmutación 
+					de paquetes y se refinó por Fugas posteriores 6 y 7.</p>
+					<p>Inicialmente, IMS era un sistema 
+					todo-IP diseñado para ayudar a los 
+					operadores móviles ofrecer servicios 
+					interactivos e interoperables de próxima 
+					generación, de manera rentable, a través 
+					de una arquitectura que proporciona la 
+					flexibilidad de Internet.
+					</p>
+				</td>
+			</tr>	
+			</table></center>
+			
+			
+				<color=#000000><script language="JavaScript">  
+				
+				function fecha()
+				{ 
+				fecha = new Date() 
+				mes = fecha.getMonth() 
+				diaMes = fecha.getDate() 
+				diaSemana = fecha.getDay() 
+				anio = fecha.getFullYear() 
+ 
+				dias = new Array('Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado') 
+				meses = new Array('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre')
+				document.write('<span id="fecha">') 
+				document.write (dias[diaSemana] + ", " + diaMes + " de " + meses[mes] + " de " + anio)
+				document.write ('</span>') 
+				} 
+				</script> 
+				<style type="text/css">  
+				<!-- 
+				#fecha { 
+				font-family: Tahoma, Verdana, Arial; 
+				font-size: 12px; 
+				color: #000000; 
+				background :  
+				} 
+				--> 
+				</style>  
+				<script language="JavaScript">  
+				function hora()
+				{ 
+				var fecha = new Date() 
+				var hora = fecha.getHours() 
+				var minuto = fecha.getMinutes() 
+				var segundo = fecha.getSeconds() 
+				if (hora < 10) {hora = "0" + hora} 
+				if (minuto < 10) {minuto = "0" + minuto} 
+				if (segundo < 10) {segundo = "0" + segundo} 
+				var horita = hora + ":" + minuto + ":" + segundo 
+				document.getElementById('hora').firstChild.nodeValue = horita 
+				tiempo = setTimeout('hora()',1000) 
+				} 
+				function inicio()
+				{ 
+				document.write('<span id="hora">') 
+				document.write ('000000</span>') 
+				hora() 
+				} 
+				</script> 
+				<style type="text/css">  
+				<!-- 
+				#hora 
+				{ 
+				width:100px; 
+				font-family: Tahoma, Verdana, Arial; 
+				font-size: 12px; 
+				color: #000000; 
+				background :  
+				} 
+				--> 
+				</style>    
+				<div align="center">  
+				<b><script>fecha()</script></b></div> 
+				<div align="center"> 
+				<b><script>inicio()</script></b></div></color>
+
+		</center></table></tr></td>
+		</body>
+</html>
